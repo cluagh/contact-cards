@@ -1,0 +1,131 @@
+* {
+
+}
+
+#wrapper {
+    width: 98%;
+    background: darkslategray;
+    padding: 1%;
+    text-align: center;   
+    color: rgb(34, 58, 58);
+}
+
+#header {
+    background: rgb(96, 110, 124);
+    margin: 0 auto;
+    margin-bottom: .3%;
+    width: 83.4%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+#header-right, #header-left {
+    margin: 0%;
+    display: inline-block;
+}
+
+#header-left {
+    margin-left:1%;
+}
+
+#header-right {
+    margin-left: 29.5%;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    background: slategray;
+    border-radius: 10px;
+}
+
+#left {
+    width: 30%;
+    height: 280px;
+    margin-bottom: 350px;
+    padding-left: 1%;
+}
+
+#right {
+    width: 50%;
+    padding: 1%;
+}
+
+.card {
+    background: darkkhaki;
+    width: 70%;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 0%;
+    margin-top: 3%;
+}
+
+p {
+    margin: 0%;
+    margin-top: 10%;
+    padding-bottom: 2%;
+}
+
+h3, input {
+    display: inline-block;
+    /* background: yellow; */
+}
+
+h3 {
+    font-size: 100%;
+    width: 23.5%;
+    margin: 0%;
+    margin: 3% 0%;
+}
+
+.input-text {
+    /* margin-right: 30%; */
+    padding-top: .5%;
+    padding-bottom: .5%;
+    background:rgb(127, 152, 173);
+    border: none;
+}
+
+#textbox {
+    /* margin-right: 30%; */
+    background: rgb(127, 152, 173);
+    border: none;
+}
+
+#description {
+    margin-right: 30%;
+    margin-top: 6%;
+}
+
+#submit-button {
+    margin-top: 4%;
+    background: rgb(127, 152, 173);
+    border: none;
+}
+
+#first-alert, #last-alert, #desc-alert {
+    display: inline-block;
+    color: rgb(155, 35, 35);
+    visibility: hidden;
+}
+
+#desc-alert {
+    vertical-align: top;
+}
+
+.description-button, .description-text {
+    margin: 0 auto;
+    padding-top: 2%;
+    margin-top: 10%;
+    width: 80%;
+    border-radius: 20px;
+    background: rgb(196, 191, 140);
+}

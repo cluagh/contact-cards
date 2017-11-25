@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Clua's Contacts</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1 id="header-left">Add Contact Card</h1>
+            <h1 id="header-right">Contact Card List</h1>
+        </div>
+        <div id="left" class="container">
+            <form>
+                <h3>First Name:</h3>
+                <input id="first-name" class="input-text" type="text" placeholder="First Name">
+                <span id="first-alert">Required</span>
+                <h3>Last Name:</h3>
+                <input id="last-name" class="input-text" type="text" placeholder="Last Name">
+                <span id="last-alert">Required</span>
+                <h3 id="description">Description:</h3>
+                <textarea id="textbox" cols="35" rows="7" placeholder="Enter description"></textarea>
+                <span id="desc-alert">Required</span>
+            </form>
+            <input id="submit-button" type="submit" value="Add User">
+        </div>
+        <div id="right" class="container">
+            <div class="card">
+                <h1>Christian Luarca</h1>
+                <p class="description-button">Click for description!</p>
+                <p hidden class="description-text">Artist, Musician, App Developer in the Making!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
